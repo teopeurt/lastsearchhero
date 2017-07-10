@@ -1,0 +1,273 @@
+{
+    "album": {
+        "name": "Believe",
+        "artist": "Disturbed",
+        "mbid": "c559efc2-f734-41ae-93bd-2d78414e0356",
+        "url": "https://www.last.fm/music/Disturbed/Believe",
+        "image": [
+                  {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/34s/bca3b80481394e25b03f4fc77c338897.png",
+                  "size": "small"
+                  },
+                  {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/64s/bca3b80481394e25b03f4fc77c338897.png",
+                  "size": "medium"
+                  },
+                  {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/174s/bca3b80481394e25b03f4fc77c338897.png",
+                  "size": "large"
+                  },
+                  {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/bca3b80481394e25b03f4fc77c338897.png",
+                  "size": "extralarge"
+                  },
+                  {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/bca3b80481394e25b03f4fc77c338897.png",
+                  "size": "mega"
+                  },
+                  {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/bca3b80481394e25b03f4fc77c338897.png",
+                  "size": ""
+                  }
+                  ],
+        "listeners": "752816",
+        "playcount": "13085389",
+        "tracks": {
+            "track": [
+                      {
+                      "name": "Prayer",
+                      "url": "https://www.last.fm/music/Disturbed/_/Prayer",
+                      "duration": "221",
+                      "@attr": {
+                      "rank": "1"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Liberate",
+                      "url": "https://www.last.fm/music/Disturbed/_/Liberate",
+                      "duration": "210",
+                      "@attr": {
+                      "rank": "2"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Awaken",
+                      "url": "https://www.last.fm/music/Disturbed/_/Awaken",
+                      "duration": "269",
+                      "@attr": {
+                      "rank": "3"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Believe",
+                      "url": "https://www.last.fm/music/Disturbed/_/Believe",
+                      "duration": "267",
+                      "@attr": {
+                      "rank": "4"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Remember",
+                      "url": "https://www.last.fm/music/Disturbed/_/Remember",
+                      "duration": "251",
+                      "@attr": {
+                      "rank": "5"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Intoxication",
+                      "url": "https://www.last.fm/music/Disturbed/_/Intoxication",
+                      "duration": "194",
+                      "@attr": {
+                      "rank": "6"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Rise",
+                      "url": "https://www.last.fm/music/Disturbed/_/Rise",
+                      "duration": "237",
+                      "@attr": {
+                      "rank": "7"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Mistress",
+                      "url": "https://www.last.fm/music/Disturbed/_/Mistress",
+                      "duration": "226",
+                      "@attr": {
+                      "rank": "8"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Breathe",
+                      "url": "https://www.last.fm/music/Disturbed/_/Breathe",
+                      "duration": "261",
+                      "@attr": {
+                      "rank": "9"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Bound",
+                      "url": "https://www.last.fm/music/Disturbed/_/Bound",
+                      "duration": "233",
+                      "@attr": {
+                      "rank": "10"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Devour",
+                      "url": "https://www.last.fm/music/Disturbed/_/Devour",
+                      "duration": "232",
+                      "@attr": {
+                      "rank": "11"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      },
+                      {
+                      "name": "Darkness",
+                      "url": "https://www.last.fm/music/Disturbed/_/Darkness",
+                      "duration": "388",
+                      "@attr": {
+                      "rank": "12"
+                      },
+                      "streamable": {
+                      "#text": "0",
+                      "fulltrack": "0"
+                      },
+                      "artist": {
+                      "name": "Disturbed",
+                      "mbid": "dc75517c-d268-486d-bd5b-0eaff34eeef9",
+                      "url": "https://www.last.fm/music/Disturbed"
+                      }
+                      }
+                      ]
+        },
+        "tags": {
+            "tag": [
+                    {
+                    "name": "albums I own",
+                    "url": "https://www.last.fm/tag/albums+I+own"
+                    },
+                    {
+                    "name": "metal",
+                    "url": "https://www.last.fm/tag/metal"
+                    },
+                    {
+                    "name": "hard rock",
+                    "url": "https://www.last.fm/tag/hard+rock"
+                    },
+                    {
+                    "name": "alternative metal",
+                    "url": "https://www.last.fm/tag/alternative+metal"
+                    },
+                    {
+                    "name": "Nu Metal",
+                    "url": "https://www.last.fm/tag/Nu+Metal"
+                    }
+                    ]
+        },
+        "wiki": {
+            "published": "05 Oct 2008, 04:45",
+            "summary": "Believe is the second album by the American rock band, Disturbed. It was released September 17, 2002. It debuted at #1 on the Billboard 200 chart, making it Disturbed's first #1 debut and sold 284,000 copies in its first week. There was also a limited edition release issued with a supplementary DVD and deluxe packaging. <a href=\"http://www.last.fm/music/Disturbed/Believe\">Read more on Last.fm</a>.",
+            "content": "Believe is the second album by the American rock band, Disturbed. It was released September 17, 2002. It debuted at #1 on the Billboard 200 chart, making it Disturbed's first #1 debut and sold 284,000 copies in its first week. There was also a limited edition release issued with a supplementary DVD and deluxe packaging. <a href=\"http://www.last.fm/music/Disturbed/Believe\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+        }
+    }
+}

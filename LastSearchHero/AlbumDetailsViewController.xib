@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlbumDetailsViewController" customModule="LastSearchHero" customModuleProvider="target">
+            <connections>
+                <outlet property="albumTitle" destination="mLl-fM-jNm" id="ubd-XM-Bq1"/>
+                <outlet property="albumcover" destination="hFb-Sc-vgA" id="eEE-l7-IUC"/>
+                <outlet property="artistName" destination="yXN-Yu-clA" id="FyX-eV-gtT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLl-fM-jNm">
+                    <rect key="frame" x="101" y="383" width="258" height="41"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="258" id="9KX-g9-0hI"/>
+                        <constraint firstAttribute="height" constant="41" id="K4V-eo-760"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXN-Yu-clA">
+                    <rect key="frame" x="101" y="425" width="258" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hFb-Sc-vgA">
+                    <rect key="frame" x="16" y="71" width="343" height="299"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="299" id="O8T-LL-iib"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYl-KJ-E8X">
+                    <rect key="frame" x="16" y="425" width="92" height="21"/>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cco-aW-4MN">
+                    <rect key="frame" x="16" y="396" width="92" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="92" id="Eje-wO-rpN"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Album:">
+                            <attributes>
+                                <font key="NSFont" size="17" name="Arial-Black"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cco-aW-4MN" firstAttribute="leading" secondItem="UYl-KJ-E8X" secondAttribute="leading" id="2bf-sa-Qij"/>
+                <constraint firstItem="cco-aW-4MN" firstAttribute="top" secondItem="hFb-Sc-vgA" secondAttribute="bottom" constant="26" id="D9f-te-jbg"/>
+                <constraint firstItem="mLl-fM-jNm" firstAttribute="leading" secondItem="yXN-Yu-clA" secondAttribute="leading" id="FBM-g8-yLm"/>
+                <constraint firstItem="cco-aW-4MN" firstAttribute="leading" secondItem="hFb-Sc-vgA" secondAttribute="leading" id="Fkf-da-wSC"/>
+                <constraint firstItem="hFb-Sc-vgA" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Len-eK-xPb"/>
+                <constraint firstItem="cco-aW-4MN" firstAttribute="trailing" secondItem="UYl-KJ-E8X" secondAttribute="trailing" id="Oac-ci-H01"/>
+                <constraint firstItem="UYl-KJ-E8X" firstAttribute="baseline" secondItem="yXN-Yu-clA" secondAttribute="baseline" id="RyT-jQ-4Qo"/>
+                <constraint firstItem="mLl-fM-jNm" firstAttribute="trailing" secondItem="yXN-Yu-clA" secondAttribute="trailing" id="aST-tL-07G"/>
+                <constraint firstItem="mLl-fM-jNm" firstAttribute="trailing" secondItem="hFb-Sc-vgA" secondAttribute="trailing" id="g0u-JC-K6W"/>
+                <constraint firstItem="hFb-Sc-vgA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="71" id="g0x-nf-BvF"/>
+                <constraint firstItem="UYl-KJ-E8X" firstAttribute="top" secondItem="mLl-fM-jNm" secondAttribute="bottom" constant="1" id="nen-eU-lCA"/>
+                <constraint firstItem="hFb-Sc-vgA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="qVF-BM-F4b"/>
+                <constraint firstItem="UYl-KJ-E8X" firstAttribute="top" secondItem="cco-aW-4MN" secondAttribute="bottom" constant="8" symbolic="YES" id="qzA-n0-mpv"/>
+                <constraint firstItem="mLl-fM-jNm" firstAttribute="top" secondItem="hFb-Sc-vgA" secondAttribute="bottom" constant="13" id="w1P-9r-otr"/>
+            </constraints>
+            <point key="canvasLocation" x="100.5" y="59.5"/>
+        </view>
+    </objects>
+</document>
